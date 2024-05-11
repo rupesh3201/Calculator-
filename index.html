@@ -1,9 +1,282 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head>#a1a577 #ff6348
        <title>Calculator</title>
+       <style>
+        @font-face {
+            font-family: rups;
+            src: url(SF-Pro.ttf);
+        }
+        .body
+        {
+            margin: 0px;
+            width: 0px;
+            background-color: #33ccff ;
+        }
+        .Calculator-body
+        {
+            height: 998px;
+            width: 490px;
+            background-color: #3d3d5c;
+            display: block;
+            border-radius: 10px;
+            padding: 5px;
+            margin-top: 50px;
+            background-color: 	 #0d0d0d;
+            position: relative;
+            left: 30px;
+            border-radius: 95px;
+            border: 1px bold palevioletred;
+            box-shadow: 0px 0px 0px 4px rgb(205, 196, 199);
+           
+         
+            
+        }
+        .btn
+        {
+            background-color: azure;
+            position: absolute;
+            height: 35px;
+            width: 100px;
+            display: block;
+        left: 200px;
+            border-radius: 20px;
+            font-size: 20px;
+            text-align: center;
+            top: 25px;
+            background-color: #000000;
+            border: none;
+
+
+
+        }
+        .cal{
+            position: relative;
+            left: 800px;
+            top:-1030px
+            
+        }
+        .time
+        {
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            top :20px;
+            left: 75px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .network
+        {
+            font-size: 20px;
+            position: absolute;
+            top :20px;
+            left: 355px;
+
+        }
+        .o
+        {
+            font-size: 100px;
+            font-family:rups;
+            color: aliceblue;
+            position: absolute;
+            left: 400px;
+            top:175px;
+        
+
+        }
+        .calculator-btn
+        {
+            height: 100px;
+            width: 100px;
+            background-color:  #a0a09a;
+            border-radius: 50%;
+            text-align: center;
+            font-size: 100px;
+            position: relative;
+            margin: 5px;
+
+            
+            
+        }
+        .c
+        {
+         position: relative;;
+            text-align: center;
+            color: whitesmoke;
+            font-size: 40px;
+            top: -5px;
+            font-family:rups ;
+            
+        }
+        .calculator-disply{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            margin-top: 349px;
+
+        }
+        .c3
+        {
+         position: relative;;
+            text-align: center;
+            color: black;
+            font-size: 40px;
+            top: -5px;
+            font-family:rups ;
+            
+        }
+        .calculator-btn:hover
+        {
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            transition: 1ms;
+            border-radius: 50%;
+            text-align: center;
+            font-size: 100px;
+            position: relative;
+            margin: 5px;
+
+            
+            
+        }
+        .side{
+            height: 5px;
+            width: 160px;
+            background-color: whitesmoke;
+            position: absolute;
+            left: 210px;
+            border: none;
+            border-radius: 5px;
+            margin-top: -45px;
+
+        }
+        
+
+
+       </style>
 </head>
-<body>
-    <h1> Calculator</h1>
+<body class="body">
+    <div class="Calculator-body">
+        <button class="btn">
+
+        </button>
+        <h1 class="time">9:41</h1>
+        <h1 class="network">🌐&nbsp;🛜&nbsp;🔋</h1>
+        <h1 class="o">0</h1>
+        <div class="calculator-disply">
+            <div class="calculator-btn">
+                <h1 class="c3"> AC</h1>
+                   
+                
+            </div>
+            <div class="calculator-btn">
+                <h1 class="c3">±</h1>
+                   
+                
+            </div>
+            <div class="calculator-btn">
+                <h1 class="c3"> 	&#xFF05;</h1>
+                   
+                
+            </div>
+            <div style="background-color:  #ffad33;"class="calculator-btn">
+                <h1 class="c"> 	&#x00F7;</h1>
+                   
+                
+            </div>
+            <div style="background-color:  	  #2e2e38; color:whitesmoke;"  class="calculator-btn">
+                <h1 class="c">9</h1>
+                   
+                
+            </div>
+            <div style="background-color:  #2e2e38; color:whitesmoke;"  class="calculator-btn">
+                <h1 class="c">8</h1>
+                   
+                
+            </div>
+            <div style="background-color:  #2e2e38; color:whitesmoke;" class="calculator-btn">
+                <h1 class="c">7</h1>
+                   
+                
+            </div>
+            <div style="background-color:  #ffad33;" class="calculator-btn">
+                <h1 class="c"> &#xd7;</h1>
+                   
+                
+            </div>
+            <div style="background-color:   #2e2e38; color:whitesmoke;"  class="calculator-btn">
+                <h1 class="c">6<h1>
+                   
+                
+            </div>
+            <div style="background-color:   #2e2e38; color:whitesmoke;"  class="calculator-btn">
+                <h1 class="c">5</h1>
+                   
+                
+            </div>
+            <div style="background-color:   #2e2e38; color:whitesmoke;"  class="calculator-btn">
+                <h1 class="c">4</h1>
+                   
+                
+            </div>
+            <div style="background-color:  #ffad33;" class="calculator-btn">
+                <h1 class="c">&#x2212;</h1>
+                   
+                
+            </div>
+            <div style="background-color:  #2e2e38; color:whitesmoke;"  class="calculator-btn">
+                <h1 class="c">3</h1>
+                   
+                
+            </div>
+            <div style="background-color:   #2e2e38; color:whitesmoke;"  class="calculator-btn">
+                <h1 class="c">2</h1>
+                   
+                
+            </div>
+            <div style="background-color:   #2e2e38; color:whitesmoke;"  class="calculator-btn">
+                <h1 class="c">1</h1>
+                   
+                
+            </div>
+            <div  style="background-color:  #ffad33;"class="calculator-btn">
+                <h1 class="c">&#x2b;</h1>
+                   
+                
+            </div>
+            <div style="background-color:   #2e2e38; color:whitesmoke;"   class="calculator-btn">
+                <h1 class="c">0</h1>
+                   
+                
+            </div>
+            <div style="background-color:  #2e2e38; color:whitesmoke;"  class="calculator-btn">
+                <h1 class="c">.</h1>
+                   
+                
+            </div>
+            <div style="background-color:  #2e2e38; color:whitesmoke;"    class="calculator-btn">
+                <h1 class="c">❌</h1>
+                   
+                
+            </div>
+            <div  style="background-color:  #ffad33;" class="calculator-btn">
+                <h1 class="c">&#x3d;</h1>
+                   
+                
+            </div>
+    
+        </div>
+    </div>
+    <br>
+    <button class="side"></button>
+    <img class="cal" src="cal.png" alt="">
+    
+    
+    
+    <div>
+       
+    </div>
+    
 </body>
 </html>
